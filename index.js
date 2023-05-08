@@ -28,7 +28,7 @@ app.post('/pessoas/criar', async function(req, res){
       res.redirect('/pessoas')
   } catch (err) {
     console.error(err);
-    res.status(500).json({ message: 'Ocorreu um erro ao criar o usuário.'});
+    res.status(500).json({ message: 'Ocorreu um erro ao criar o usuário - Isabela Mattos.'});
   }    
 })
 
