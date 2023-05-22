@@ -10,7 +10,9 @@
     <% pessoas.forEach((pessoa) => { %>
         <%= pessoa.nome %>
         <%= pessoa.sobrenome %>
-        <%= pessoa.idade %>
+        <%= pessoa.idade %><br />
+        <%= pessoa.id %>
+        <a href="pessoas/delete?id=<%= pessoa.id %">Deletar</a>
     <% }) %>
 
 </body>
